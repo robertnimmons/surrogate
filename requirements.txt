@@ -1,0 +1,7 @@
+# PyTorch: install a CUDA build for GPU training. On WSL2 with a recent NVIDIA
+# Windows driver, the default Linux wheel from PyPI ships its own CUDA runtime.
+torch>=2.2
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+scipy>=1.10

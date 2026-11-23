@@ -1,0 +1,7 @@
+{
+  "source": "csv",
+  "path": "data/plate_with_hole.csv",
+  "inputs": ["plate_width_mm", "hole_diameter_mm", "thickness_mm", "load_kn", "yield_strength_mpa"],
+  "targets": ["max_von_mises_mpa", "safety_factor"],
+  "target_transform": "log"
+}

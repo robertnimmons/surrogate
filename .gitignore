@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Regenerated on every run of train.py
+data/*.csv
+results/test_predictions.csv
+results/history.csv

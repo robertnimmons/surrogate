@@ -1,0 +1,48 @@
+{
+  "hardware": "NVIDIA GeForce GTX 1660 Ti",
+  "torch": "2.9.1+cu128",
+  "seed": 42,
+  "dataset_rows": 20000,
+  "split_sizes": {
+    "train": 14000,
+    "val": 3000,
+    "test": 3000
+  },
+  "model_parameters": 34050,
+  "epochs_run": 633,
+  "best_epoch": 583,
+  "best_val_loss_normalised_mse": 3.695931354741333e-06,
+  "train_seconds": 95.87871300300048,
+  "test_metrics": {
+    "max_von_mises_mpa": {
+      "mae": 0.33586608186816713,
+      "rmse": 1.3662190461929078,
+      "max_abs_error": 56.60591798950327,
+      "r2": 0.9999660720741893,
+      "mean_rel_error_pct": 0.11963607605968288,
+      "p99_rel_error_pct": 0.7150928421168014,
+      "max_rel_error_pct": 3.910840189869159
+    },
+    "safety_factor": {
+      "mae": 0.014778063400242127,
+      "rmse": 0.0772073274436535,
+      "max_abs_error": 2.7838488250944806,
+      "r2": 0.9999680629050822,
+      "mean_rel_error_pct": 0.12988862719671443,
+      "p99_rel_error_pct": 0.7195996943281918,
+      "max_rel_error_pct": 3.852186108685455
+    }
+  },
+  "inference": {
+    "single_median_s": 0.0009823999998843647,
+    "single_p95_s": 0.0011451200000465178,
+    "batched_per_sample_s": 9.627316833302757e-07
+  },
+  "fea": {
+    "median_s": 0.11605530099996031,
+    "n_points": 10,
+    "n_dof": 6370,
+    "max_rel_diff_vs_analytical_pct": 0.7687310448020179,
+    "formula_s": 3.037100000256032e-07
+  }
+}
